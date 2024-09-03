@@ -37,3 +37,5 @@ mongoose
   .catch((err) => {
     console.log('Database connection failed with error:', err);
   });
+
+module.exports = app;
